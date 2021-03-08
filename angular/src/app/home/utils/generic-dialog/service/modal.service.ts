@@ -2,7 +2,7 @@ import {EventEmitter, Injectable} from "@angular/core";
 import {NgbModal} from "@ng-bootstrap/ng-bootstrap";
 import {ModalServiceConfig} from "./modal-service-config";
 import {NgbModalRef} from "@ng-bootstrap/ng-bootstrap/modal/modal-ref";
-import {GenericDialog} from "../generic-dialog/generic-dialog.modal";
+import {GenericDialog} from "../component/generic-dialog.modal";
 
 @Injectable({
   providedIn: 'root',

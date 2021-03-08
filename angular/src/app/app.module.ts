@@ -5,10 +5,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
-import {ErrorDialogModal} from "./home/popups/error-dialog/error-dialog.modal";
-import {InfoDialogModal} from "./home/popups/info-dialog/info-dialog.modal";
-import {SuccessDialogModal} from "./home/popups/success-dialog/success-dialog.modal";
-import {GenericDialog} from "./home/popups/generic-dialog/generic-dialog.modal";
+import {GenericDialog} from "./home/utils/generic-dialog/component/generic-dialog.modal";
 
 @NgModule({
   declarations: [
@@ -21,7 +18,7 @@ import {GenericDialog} from "./home/popups/generic-dialog/generic-dialog.modal";
     AppRoutingModule,
     NgbModule
   ],
-  providers: [ErrorDialogModal, InfoDialogModal, SuccessDialogModal, GenericDialog],
+  providers: [GenericDialog],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

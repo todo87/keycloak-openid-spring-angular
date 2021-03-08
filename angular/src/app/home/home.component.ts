@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
-import {ModalService} from "./popups/service/modal.service";
-import {ModalServiceConfig} from "./popups/service/modal-service-config";
+import {ModalService} from "./utils/generic-dialog/service/modal.service";
+import {ModalServiceConfig} from "./utils/generic-dialog/service/modal-service-config";
 
 @Component({
   selector: 'app-home',
